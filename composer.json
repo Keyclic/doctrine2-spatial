@@ -11,7 +11,7 @@
     ],
     "license": "MIT",
     "replace": {
-        "creof/doctrine2-spatial": : "self.version" 
+        "creof/doctrine2-spatial": "self.version" 
     },
     "require": {
         "doctrine/orm": ">=2.3",
