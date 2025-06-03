@@ -1,5 +1,5 @@
 {
-    "name": "creof/doctrine2-spatial",
+    "name": "keyclic/doctrine2-spatial",
     "type": "library",
     "description": "Doctrine2 multi-platform support for spatial types and functions",
     "keywords": ["orm", "dbal", "database", "postgresql", "mysql", "opengis", "postgis", "gis", "spatial", "geometry", "geography"],
@@ -10,6 +10,9 @@
         }
     ],
     "license": "MIT",
+    "replace": {
+        "creof/doctrine2-spatial": : "self.version" 
+    },
     "require": {
         "doctrine/orm": ">=2.3",
         "creof/geo-parser": "~2.0",
